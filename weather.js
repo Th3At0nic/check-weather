@@ -4,7 +4,6 @@ function checkWeather() {
     // let url = "http://api.openweathermap.org/data/2.5/weather?q=";
 
 
-    // fetch(`${url}${cityInput}&APPID=${appid}`)
     fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityInput}&APPID=${appid}`)
         .then(response => response.json())
         .then(data => {
