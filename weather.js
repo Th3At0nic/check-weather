@@ -14,6 +14,6 @@ function checkWeather() {
             let iconUrl = "https://openweathermap.org/img/wn/" + weatherIcon + "@2x.png";
             document.getElementById("weather-icon").src = iconUrl;
             document.getElementById("aerosol").innerText = data.weather[0].main;
-            // console.log(data);
+            console.log(data);
         });
 }
